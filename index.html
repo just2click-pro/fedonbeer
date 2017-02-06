@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>fed on beer - Dror</title>
+	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="styles/main.css">
+	<link rel="stylesheet" type="text/css" href="styles/responsive.css">
+	<link rel="shortcut icon" href="images/favicon.ico" type="image/ico">
+</head>
+<body>
+	<header>
+		<div class="container">
+			<nav class="clearfix">
+				<a href="#anchor-home" "Home">
+					<h1><img src="images/fed_on_beer.png" alt=""><strong>fed</strong>onbear</span></h1>
+				</a>
+				<ul id="mainMenu" class="clearfix">
+					<li onClick="setMenuItemActive(0)"><a href="#anchor-home" class="active">הרצאות</a></li>
+					<li onClick="setMenuItemActive(1)"><a href="#anchor-subscribe">הרשמה</a></li>
+					<li onClick="setMenuItemActive(2)"><a href="#anchor-directions">איך מגיעים</a></li>
+					<li onClick="setMenuItemActive(3)"><a href="#anchor-info">מידע נוסף</a></li>
+				</ul>
+				<a href="#" id="alter-menu"><i class="fa fa-bars fa-2x"></i></a>
+			</nav>
+		</div>
+	</header><!-- /header -->
+	<a class="anchor" id="anchor-home"></a>
+	<section id="home">
+		<img id="desktopImage" src="images/devshots_bg.png" alt="">
+		<img id="mobileImage" src="images/mobile_img.png" alt="">
+		<div class="container">
+			<article id="event-summary">
+				<h2>fed on beer</h2>
+				<p>
+					לדבר על Front End קצת אחרת.
+				</p>
+				<p>
+					המפגש המקצועי הראשון שמצריך נהג תורן.
+				</p>
+				<h4>
+					יום שישי ה-13 בפבואר, 18:30
+				</h4>
+				<a href="#anchor-subscribe" "Subscribe" class="subscribe">הרשמה</a>
+			</article>
+		</div>
+	</section>
+
+	<section id="lectures">
+		<div class="container">
+			<div class="titles">
+				<div class="red-title">
+					הנושאים הכי עדכניים בהרצאות קצרות ומעניינות
+				</div>
+				<div class="time-title">
+					20 דקות לכל הרצאה
+				</div>
+			</div>
+			<div class="lecture-container-1">
+				<article id="lecture-1" class="ease-in">
+					<img src="images/gabimor.png" alt="">
+					<h2>מכוניות אוטונומיות וחשמליות</h2>
+					<div class="link">גבי מור</div>
+					<p>
+						מכוניות אוטונומיות, משאיות שנוהגות את עצמן, עיר ללא רמזורים ותחבורה ציבורית ע״פ דרישה. מהפכת התחבורה החכמה כבר נמצאת הפתח ואיתה שלל הבטחות. בסקירה קצרה ועם קצת דמיון ננסה לצפות את השינויים ולנבא את אופן השפעתם על חיינו בשנים הקרובות.
+					</p>
+				</article>
+				<article id="lecture-1-info" class="ease-in">
+					<img src="images/lecturer_1_hover.png" alt="">
+					<div class="link no-title">גבי מור</div>
+					<p>
+						ילד PC, החל את דרכו בעולם הפיתוח בגיל 14 עם שפות כמו פסקל ו C++. המשיך בשירות בממר"ם, ולאחר מכן במגוון סטארטאפים כמפתח fullstack, ראש צוות ויזם. כיום משלב בין אהבתו להוראה ולטכנולוגיה כמדריך בתחום ה front end, בקורסים למתחילים וכן בחברות מובילות (מייקרוסופט, נטאפ).
+					</p>
+				</article>
+			</div>
+			<div class="lecture-container-2">
+				<article id="lecture-2" class="ease-in">
+					<img src="images/yarivgilad.png" alt="">
+					<h2>React Native - פיתוח Web פוגש את עולם הMobile</h2>
+					<div class="link">יריב גלעד</div>
+					<p>
+						אחת הספריות הכי חמות בעולם הFED בשנתיים האחרונות היא  React.js של פייסבוק. אחת החוזקות הבולטות של הספרייה היא העובדה שהיא מאפשרת למפתחים למנף את אותו ידע שרכשו בפיתוח Web בעולם הMobile. בהרצאה נבין למה הגישה החדשנית של React Native עשוייה להתגלות כ-Game Changer. בואו לגלות מדוע מותגים חזקים ומובילים כמו Instagram Airbnb ו Wix כבר משתמשים בReact Native באפליקציות הMobile שלהם.
+					</p>
+				</article>
+				<article id="lecture-2-info" class="ease-in">
+					<img src="images/lecturer_2_hover.png" alt="">
+					<div class="link no-title">יריב גלעד</div>
+					<p>
+						מייסד CasaVersa - סטארטאפ תל אביבי העוסק בחילופי בתים #כלכלת-שיתוף #תיירות חבר בצוות המייסדים של Wibbitz - סטארטאפ מבוסס בתחום ה Content Publishing מתמקד היום בFullstack Javascript Modern Web Development ועוקב בדריכות אחר האבולוציה הטכנולוגית בעולם הווב ומדיומים אינטראקטיביים אחרים. טכנולוג מעל 16 שנה ומרצה בכיר עם נסיון של 12 שנה בתחום בחברות כמו אמדוקס, סיסקו, SAP, IBM,איירונסורס, סייזמיק ועוד.
+					</p>
+				</article>
+			</div>
+			<div class="lecture-container-3">
+				<article id="lecture-3" class="ease-in">
+					<img src="images/nirgayer.png" alt="">
+					<h2>איך לבנות תוסף לגוגל כרום ב10 דקות</h2>
+					<div class="link">ניר גייר</div>
+					<p>
+						אחד הכלים הפשוטים והחזקים כיום הם כל התוספים והאפליקציות לדפדפנים השונים. בהרצאה הזו ניר יקח אותנו למסע קצר וילמד איך ניתן לכתוב תוסף לכרום בכמה דקות ומה הן היכולות והAPI שקיימים וכיצד להשתמש בהם. נלמד כיצד להתחיל, מה צריך ואת כל השלבים משלב הקידוד על לשלב ההפצה בחנות התוספים של גוגל.
+					</p>
+				</article>
+				<article id="lecture-3-info" class="ease-in">
+					<img src="images/lecturer_3_hover.png" alt="">
+					<div class="link no-title">ניר גייר</div>
+					<p>
+						המנהל המקצועי של קורס הפיתוח בנטקראפט. החל את דרכו כמפתח JavaScript כבר במאה הקודמת בשנת 1995 ומאז ועד היום שימש במגוון תפקידי פיתוח וניהול. הבעלים של חברת CodeWizard המתמחה בייעוץ והדרכה במגוון תחומים לרבות GIT ותחומי ה-WEB.
+					</p>
+				</article>
+			</div>
+			<div class="lecture-container-4">
+				<article id="lecture-4" class="ease-in">
+					<img src="images/zohararad.png" alt="">
+					<h2>חמש טכנולוגיות לאי בודד</h2>
+					<div class="link">זוהר ארד</div>
+					<p>
+						מהן חמש הטכנולוגיות שהיינו לוקחים איתנו לאי בודד ב 2017 כדי להעביר את הזמן עד שיצילו אותנו
+					</p>
+				</article>
+				<article id="lecture-4-info" class="ease-in">
+					<img src="images/lecturer_4_hover.png" alt="">
+					<div class="link no-title">זוהר ארד</div>
+					<p>
+						מפתח ווב עם נסיון של יותר מעשר שנים בפיתוח צד שרת ולקוח, תשתיות, Big Data וכל מה שביניהם. CTO בחברת Quicklizard, ויועץ טכנולוגיות Web ו Big Data בזעיר-אנפין.
+					</p>
+				</article>
+			</div>
+		</div>
+	</section>
+	<a class="anchor" id="anchor-subscribe"></a>
+	<section id="subscribe">
+		<div class="container">
+			<div class="form">
+				<h2>הרשמה</h2>
+				<p>
+					הכניסה היא חינם אבל מספר המקומות מצומצם
+				</p>
+				<p class="subscribe-notes">
+					נשמח אם תרשמו רק אם אתם באמת מתכוננים להגיע - כדי שלא נסרב למישהו אחר.
+				</p>
+				<form action="index_submit" method="get" accept-charset="utf-8">
+					<div class="clearfix">
+						<label for="post-name">שם מלא*</label>
+						<input required type="text" placeholder="פרטי וגם משפחה" class="required" id="post-name" name="name">
+					</div>
+					<div class="clearfix">
+						<label for="post-job">תפקיד</label>
+						<input required type="text" placeholder="מה אתם עושים ביום יום" id="post-job" name="job">
+					</div>
+					<div class="clearfix">
+						<label for="post-org">ארגון</label>
+						<input required type="text" placeholder="מי משלם לכם משכורת" id="post-org" name="org">
+					</div>
+					<div class="clearfix">
+						<label for="post-email">אי-מייל*</label>
+						<input required type="email" placeholder="האמיתי, אליו נשלח את אישור ההזמנה" class="required" id="post-email" name="email">
+					</div>
+					<div class="clearfix">
+						<label for="post-phone">טלפון*</label>
+						<input required type="text" placeholder="או הסלולרי, לנו לא אכפת" class="required" id="post-phone" name="phone">
+					</div>
+					<div class="clearfix">
+						<input type="submit" name="subscribe" value="הרשמה" class="send-button">
+					</div>
+				</form>
+				<p class="remark">
+					כל הפרטים האישיים ישארו חסויים ואנחנו לא נעביר אותם לאף אחד. הכניסה לאירוע חינם, השתיה עליכם.
+				</p>
+			</div>
+
+			<div class="dummy-chat">
+				<div class="chat-wrapper">
+					<ol>
+						<li>כמה זה עולה לי?</li>
+						<li>כלום, נאדה, אפס, גורנישט</li>
+						<li>באמת?</li>
+						<li>כן</li>
+						<li>למה שתעשו דבר כזה?</li>
+						<li>ככה כי בא לנו</li>
+					</ol>
+				</div>
+			</div>
+		</div>
+	</section>
+	<a class="anchor" id="anchor-directions"></a>
+	<section id="directions">
+		<div class="container clearfix">
+			<div class="information">
+				<h2>אז איפה יושבים?</h2>
+				<h3>ועוד כמה פרטים חשובים ...</h3>
+				<h4>הערב יערך בבר הקנטה, על גג גן העיר</h4>
+				<p class="address">אבן גבירול 71 תל-אביב</p>
+				<div class="time-table clearfix">
+					<div class="right time-text">מתכנסים בשעה:</div>
+					<div class="right time-hour">18:30</div>
+					<div class="right time-text">הרצאה ראשונה:</div>
+					<div class="right time-hour">19:00</div>
+				</div>
+				<h4 class="has-bottom-border">חניה</h4>
+				<p class="parking">
+					בחניון גן העיר או בחניונים הסמוכים
+				</p>
+			</div>
+
+			<div class="map">
+					<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3380.499144522685!2d34.77909801516446!3d32.08279288118717!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x151d4b8f16e3f309%3A0x9da8f29b76bd9b6a!2sIbn+Gabirol+St+71%2C+Tel+Aviv-Yafo%2C+Israel!5e0!3m2!1sen!2s!4v1471951642286" width="360" height="360" frameborder="0" style="border:0" allowfullscreen=""></iframe>
+			</div>
+		</div>
+	</section>
+	<a class="anchor" id="anchor-info"></a>
+	<section id="moreInfo">
+		<div class="top-info">
+			<div class="container">
+				<h2>מידע נוסף</h2>
+				<ul>
+					<li>
+						<a href="https://www.facebook.com/netcraft.co.il" target="_blank" class="image-1"></a>
+						<h3>נטקראפט בפייסבוק</h3>
+						<p>
+							לקבלת מידע על האירועים שלנו ולינקים מעניינים
+						</p>
+					</li>
+					<li>
+						<a href="http://www.netcraft.co.il/land/index.php/UX" target="_blank" class="image-2"></a>
+						<h3>קורס חווית משתמש</h3>
+						<p>ללמוד ליצור מוצרים דיגיטלים מבריקים</p>
+					</li>
+					<li>
+						<a href="http://netcraft.co.il/land/index.php/printdesigners/" target="_blank" class="image-3"></a>
+						<h3>קורס עיצוב ממשקים</h3>
+						<p>הקורס שיעהיק לך את הכלים להפוך למעצב דיגיטל</p>
+					</li>
+					<li>
+						<a href="http://netcraft.co.il/land/index.php/microcopy/" target="_blank" class="image-4"></a>
+						<h3>סדנה לכתיבת מיקרו קופי</h3>
+						<p>
+							אנו מזמינים אתכם לסדנה של יום אחד, שבמהלכה נלמד את כל מה שצריך לדעת כדי לכתוב מיקרו-קופי
+							מנצח.</p>
+					</li>
+					<li>
+						<a href="http://netcraft.co.il/land/index.php/fed/" target="_blank" class="image-5"></a>
+						<h3>Front End Development</h3>
+						<p>קורס הכשרה מקצועית לתחום הפיתוח המבוקש והמתקדם ביותר בעולם כיום</p>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<div class="bottom-info">
+			<div class="container clearfix">
+				<h2>קול קורא!</h2>
+				<p>
+					התלהבתם מהרעיון? רוצים לתת הרצאה בפעם הבאה?
+					<br>
+					דברו איתנו בערב ונשמח לצרף אתכם למפגש הבא.
+				</p>
+			</div>
+		</div>
+	</section>
+	<footer>
+		<div class="container">
+			<a href="#anchor-home" class="back-to-top"></a>
+			<a href="http://netcraft.co.il" class="logo" target="_blank">Netcraft</a>
+			<p class="netcraft-links">
+				<span>
+					כל הזכויות שמורות לנטקראפט © 2017 | תרימו טלפון: 050-838-5569
+				</span>
+				<span>| <a href="mailto:info@netcraft.co.il">info@netcraft.co.il</a></span>
+			</p>
+		</div>
+	</footer>
+	<script src="javascript/main.js" type="text/javascript" charset="utf-8"></script>
+</body>
+</html>
