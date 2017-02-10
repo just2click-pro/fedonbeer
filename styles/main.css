@@ -141,7 +141,6 @@ section#home {
 
 section#home img#desktopImage {
 	display: block;
-	margin: 0 -15px;
 	width: 100vw;
 }
 
@@ -152,7 +151,7 @@ section#home img#mobileImage {
 }
 
 article#event-summary {
-	background: rgba(0, 0, 0, 0.8);
+	background: rgba(0, 0, 0, 0.2);
 	color: #fff;
 	float: left;
 	line-height: 40px;
