@@ -12,10 +12,10 @@
 	<header>
 		<div class="container">
 			<nav class="clearfix">
-				<a href="#anchor-home" "Home">
+				<a  class="logo" href="#anchor-home" "Home">
 					<h1><img src="images/fed_on_beer.png" alt=""><strong>fed</strong>onbear</span></h1>
 				</a>
-				<ul id="mainMenu" class="clearfix">
+				<ul id="mainMenu">
 					<li onClick="setMenuItemActive(0)"><a href="#anchor-home" class="active">הרצאות</a></li>
 					<li onClick="setMenuItemActive(1)"><a href="#anchor-subscribe">הרשמה</a></li>
 					<li onClick="setMenuItemActive(2)"><a href="#anchor-directions">איך מגיעים</a></li>
@@ -27,9 +27,7 @@
 	</header><!-- /header -->
 	<a class="anchor" id="anchor-home"></a>
 	<section id="home">
-		<img id="desktopImage" src="images/devshots_bg.png" alt="">
-		<img id="mobileImage" src="images/mobile_img.png" alt="">
-		<div class="container">
+		<div class="container clearfix">
 			<article id="event-summary">
 				<h2>fed on beer</h2>
 				<p>
@@ -44,9 +42,11 @@
 				<a href="#anchor-subscribe" "Subscribe" class="subscribe">הרשמה</a>
 			</article>
 		</div>
+		<img id="desktopImage" src="images/devshots_bg.png" alt="">
+		<img id="mobileImage" src="images/mobile_img.png" alt="">
 	</section>
 
-	<section id="lectures">
+ 	<section id="lectures">
 		<div class="container">
 			<div class="titles">
 				<div class="red-title">
@@ -256,7 +256,7 @@
 		</div>
 	</section>
 	<footer>
-		<div class="container">
+		<div class="container clearfix">
 			<a href="#anchor-home" class="back-to-top"></a>
 			<a href="http://netcraft.co.il" class="logo" target="_blank">Netcraft</a>
 			<p class="netcraft-links">

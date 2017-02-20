@@ -1,27 +1,13 @@
+/* Smartphones (landscape) ----------- */
+@media only screen
+	and (min-width : 320px) {
 
-@media (min-width: 992px) {
 	.container {
-		width: 970px;
-	}
-}
-
-@media (min-width: 1200px) {
-	.container {
-    	width: 1170px;
-	}
-}
-
-@media (max-width: 768px) {
-	.container {
-		width: 750px;
+		width: 450px;
 	}
 
 	header {
 		height: 215px;
-	}
-
-	section {
-		width: 100vw;
 	}
 
 	nav a#alter-menu {
@@ -86,6 +72,187 @@
 		display: block;
 	}
 
+	.titles .red-title, .titles .time-title {
+		float: none !important;
+		margin: 0 auto;
+		text-align: center;
+	}
+
+	.titles .time-title {
+		margin-top: 10px;
+		max-width: 225px;
+	}
+
+	#event-summary {
+		text-align: center !important;
+		top: 90px !important;
+	}
+}
+
+@media only screen
+	and (min-width: 480px) {
+
+	.container {
+		width: 450px;
+	}
+
+	header {
+		height: 215px;
+	}
+
+	nav a#alter-menu {
+		display: block;
+		float: right;
+		margin-top: 25px;
+	}
+
+	nav ul {
+		list-style: none;
+    margin: 90px auto 0;
+    position: absolute;
+    left: 20px;
+	}
+
+	nav ul li {
+		float: none;
+		line-height: 30px;
+		padding-left: 10px;
+	}
+
+	nav ul li a.active:before {
+		color: #f42853;
+		content: '\f005';
+		font-family: FontAwesome;
+		font-size: 14px;
+	  font-style: normal;
+	  font-weight: normal;
+	  position: relative;
+	  left: 10px;
+	  text-decoration: inherit;
+	  top: 0;
+	}
+
+	.lecture-container-1, .lecture-container-2,
+	.lecture-container-3, .lecture-container-4 {
+    height: 380px;
+    position: relative;
+    width: 100%;
+	}
+
+	#lectures div article {
+		min-height: 350px;
+		width: 100%;
+	}
+
+	#lectures article p {
+		position: absolute;
+		right: 0;
+		top: 200px;
+		width: 100%;
+	}
+
+	section#lectures h2 {
+    text-overflow: ellipsis;
+    width: 200px;
+	}
+
+	section#moreInfo .bottom-info {
+		height: 180px;
+	}
+
+	footer .netcraft-links {
+		width: 40vw;
+	}
+}
+
+@media (min-width: 768px) {
+	.container {
+		width: 750px;
+	}
+
+	header {
+		height: 215px;
+	}
+
+	nav a#alter-menu {
+		display: block;
+		float: right;
+		margin-top: 25px;
+	}
+
+	nav ul {
+		list-style: none;
+    margin: 90px auto 0;
+    position: absolute;
+    left: 20px;
+	}
+
+	nav ul li {
+		float: none;
+		line-height: 30px;
+		padding-left: 10px;
+	}
+
+	nav ul li a.active:before {
+		color: #f42853;
+		content: '\f005';
+		font-family: FontAwesome;
+		font-size: 14px;
+	  font-style: normal;
+	  font-weight: normal;
+	  position: relative;
+	  left: 10px;
+	  text-decoration: inherit;
+	  top: 0;
+	}
+
+	nav ul.hide {
+		display: none;
+	}
+
+	nav ul.hide li {
+		display: none;
+	}
+
+	nav ul.show {
+		display: block;
+	}
+
+	nav ul.show li {
+		display: block;
+	}
+
+	section#home {
+		margin-top: 216px;
+	}
+
+	section#home img#desktopImage {
+		display: none;
+	}
+
+	section#home img#mobileImage {
+		margin: 30px 0 0;
+		min-height: 440px;
+		display: block;
+	}
+
+	article#event-summary {
+		position: absolute;
+		right: 10%;
+		top: 88px;
+	}
+
+	.titles .red-title, .titles .time-title {
+		float: none !important;
+		margin: 0 auto;
+		text-align: center;
+	}
+
+	.titles .time-title {
+		margin-top: 10px;
+		max-width: 225px;
+	}
+
 	#event-summary {
 		left: 25%;
 		text-align: center;
@@ -97,5 +264,117 @@
 
 	.container .map {
 		display: none;
+	}
+
+	section#moreInfo .bottom-info {
+		height: 110px;
+	}
+
+	footer .netcraft-links {
+		width: auto;
+	}
+}
+
+@media (min-width: 992px) {
+	.container {
+		width: 970px;
+	}
+
+	header {
+		height: 118px;
+	}
+
+	section#home img#desktopImage {
+		display: block;
+	}
+
+	section#home img#mobileImage {
+		display: none;
+	}
+
+	nav ul {
+		float: right;
+		list-style: none;
+		margin: 40px auto;
+		position: static;
+		-webkit-padding-start: 0;
+	}
+
+	nav ul li {
+		float: right;
+		font-size: 18px;
+		font-weight: 700;
+		position: relative;
+	}
+
+	nav ul li a.active:before {
+		color: #f42853;
+		content: '\f005';
+		font-family: FontAwesome;
+		font-size: 14px;
+	  font-style: normal;
+	  font-weight: normal;
+	  position: absolute;
+	  left: 40%;
+	  text-decoration: inherit;
+	  top: -20px;
+	}
+
+	nav a#alter-menu {
+		display: none;
+	}
+
+	article#event-summary {
+		position: absolute;
+		right: 10%;
+		text-align: right !important;
+		top: 68px;
+	}
+
+	section#home {
+		margin-top: 118px;
+	}
+
+	.titles .red-title, .titles .time-title {
+		float: right !important;
+	}
+
+	.titles .time-title {
+		float: left !important;
+		margin-top: 10px;
+		max-width: 225px;
+	}
+
+	#lectures div article {
+		min-height: none;
+	}
+
+	#lectures article p {
+		position: static;
+		width: 100%;
+	}
+
+	section#lectures h2 {
+    text-overflow: none;
+    width: auto;
+	}
+
+.lecture-container-1, .lecture-container-2, .lecture-container-3, .lecture-container-4 {
+    height: 250px !important;
+    position: relative;
+    width: 100%;
+}
+}
+
+@media (min-width: 1200px) {
+	.container {
+    	width: 1170px;
+	}
+
+	article#event-summary {
+		position: absolute;
+		right: 0;
+		text-align: right !important;
+		top: 98px;
 	}
 }
