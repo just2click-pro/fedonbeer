@@ -13,7 +13,7 @@ Netcraft DevShots web-page **Home Work** Project for NetCraft's Academy Front En
 	* Having pictures with rounded background to mimic avatars
 * Using FontAwesome
 * Using a bit of JavaScript for tobar links active state changes
-* Added some responsive behavior usinf media queries
+* Added responsive behavior using media queries
 
 ### Project Page
 
